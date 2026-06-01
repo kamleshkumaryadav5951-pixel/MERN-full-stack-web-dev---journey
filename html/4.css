@@ -1,0 +1,13 @@
+.title{
+    color:rgba(0, 0, 255, 0.86);
+    font-size:25px;
+}
+#para{
+    color:pink;
+    font-size:20;
+}
+.btn{
+    background-color:rgba(74, 236, 74, 0.937);
+    color:red;
+    font-size:15px;
+}
