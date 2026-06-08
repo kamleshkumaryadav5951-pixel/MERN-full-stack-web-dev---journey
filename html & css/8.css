@@ -1,0 +1,15 @@
+.box{
+    border:2px solid black;
+    overflow:auto;
+}
+.item{
+    background-color:aquamarine;
+    width:200px;
+    height:200px;
+    margin:2px;
+    border:1px solid black;
+    float:left;
+} 
+#item3{
+    float:right;
+}
