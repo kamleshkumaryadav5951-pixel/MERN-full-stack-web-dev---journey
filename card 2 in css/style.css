@@ -1,0 +1,87 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background: #2A7B9B;
+    background: radial-gradient(circle, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 38%, rgba(237, 221, 83, 1) 100%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.box{
+    width:370px;
+    height:600px;
+    background-color:aliceblue;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    gap:25px;
+    
+
+}
+
+.box img{
+    width:100%;
+    height:30%;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+.Textbox{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    width:70%;
+    text-align:center;
+}
+#amountbox{
+    width:80%;
+    height:10%;
+    background-color:rgba(164, 173, 255, 0.813);
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right:20px;
+    padding-left:20px;
+   
+}
+#paymentbutton{
+    width:80%;
+    height:9%;
+    background-color:rgb(42, 42, 101);
+    color:azure;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.cancelbox a{
+    text-decoration:none;
+    color:rgb(53, 49, 49);
+    font-weight:bold;
+    font-size:large;
+}
+#change{
+
+}
+#icon{
+    width:3rem;
+    height:3rem;
+}
+#leftbox{
+    height:100%;
+    /* width: fit-content; */
+    display:flex;
+    gap:15px;
+    align-items:center;
+    
+
+}
+.rightbox{
+
+}
