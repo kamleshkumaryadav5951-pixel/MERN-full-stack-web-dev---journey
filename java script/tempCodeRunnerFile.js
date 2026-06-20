@@ -1,1 +1,1 @@
-brr.pop('kamlesh');
+console.log(ans);
